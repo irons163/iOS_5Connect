@@ -24,6 +24,7 @@
 		B592A7D01AF8D1610014FC4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B592A7AB1AF8D1610014FC4C /* UIKit.framework */; };
 		B592A7D81AF8D1610014FC4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B592A7D61AF8D1610014FC4C /* InfoPlist.strings */; };
 		B592A7DA1AF8D1610014FC4C /* try_5connectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B592A7D91AF8D1610014FC4C /* try_5connectTests.m */; };
+		B592A7E51AF8D2860014FC4C /* MyBall.m in Sources */ = {isa = PBXBuildFile; fileRef = B592A7E41AF8D2860014FC4C /* MyBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		B592A7D51AF8D1610014FC4C /* try_5connectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "try_5connectTests-Info.plist"; sourceTree = "<group>"; };
 		B592A7D71AF8D1610014FC4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B592A7D91AF8D1610014FC4C /* try_5connectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = try_5connectTests.m; sourceTree = "<group>"; };
+		B592A7E31AF8D2860014FC4C /* MyBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBall.h; sourceTree = "<group>"; };
+		B592A7E41AF8D2860014FC4C /* MyBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				B592A7C41AF8D1610014FC4C /* Spaceship.png */,
 				B592A7C61AF8D1610014FC4C /* Images.xcassets */,
 				B592A7B01AF8D1610014FC4C /* Supporting Files */,
+				B592A7E31AF8D2860014FC4C /* MyBall.h */,
+				B592A7E41AF8D2860014FC4C /* MyBall.m */,
 			);
 			path = try_5connect;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				B592A7C31AF8D1610014FC4C /* MyScene.m in Sources */,
 				B592A7C01AF8D1610014FC4C /* ViewController.m in Sources */,
 				B592A7BA1AF8D1610014FC4C /* AppDelegate.m in Sources */,
+				B592A7E51AF8D2860014FC4C /* MyBall.m in Sources */,
 				B592A7B61AF8D1610014FC4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

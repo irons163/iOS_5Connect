@@ -8,7 +8,10 @@
 
 #import "MyScene.h"
 
-@implementation MyScene
+@implementation MyScene{
+    NSArray * gameBoard;
+    
+}
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
